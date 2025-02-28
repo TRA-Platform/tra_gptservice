@@ -152,5 +152,5 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 
 PROXY_URL = os.getenv('PROXY_URL', 'http://yWpWGU:kWeYDK@45.147.180.123:8000')  # FI
-CELERY_BROKER_URL = os.getenv("CELERY_BROKER_URL", "redis://localhost:6379")
-CELERY_RESULT_BACKEND = os.getenv("CELERY_RESULT_BACKEND", "redis://localhost:6379")
+CELERY_BROKER_URL = os.getenv("CELERY_BROKER_URL", "redis://localhost:6379/1")
+CELERY_RESULT_BACKEND = os.getenv("CELERY_RESULT_BACKEND", "redis://localhost:6379/2")
