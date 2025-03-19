@@ -1,4 +1,4 @@
-FROM registry.gitlab.itorummr.com/itorum/build/docker-images/python:3.9-slim-buster
+FROM python:3.9-slim-buster
 WORKDIR /app
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends \
